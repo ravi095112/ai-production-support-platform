@@ -1,0 +1,6 @@
+CREATE SEQUENCE incident_number_seq
+    START WITH 10001
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 50;
